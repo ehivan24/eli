@@ -1,0 +1,2 @@
+# eli
+AI command helper 
