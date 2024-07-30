@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 from pydantic_settings import BaseSettings
 
-_VERSION = "2024.7.0"  # EDITED BY BUMPVER, NO TOUCH
+_VERSION = "2024.7.1"  # EDITED BY BUMPVER, NO TOUCH
 
 load_dotenv()
 

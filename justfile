@@ -2,7 +2,7 @@ set export
 
 COMMIT := `git rev-parse --short HEAD`
 REPO_URL := `(git config --get remote.origin.url)`
-_VERSION := "2024.7.0"  # EDITED BY BUMPVER, NO TOUCH
+_VERSION := "2024.7.1"  # EDITED BY BUMPVER, NO TOUCH
 
 @install:
     poetry build
