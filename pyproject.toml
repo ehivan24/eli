@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "eli"
-version = "2024.6.1"
+version = "2024.7.0"
 description = ""
 authors = ["Hivan Mena <dev@madewithpython.com>"]
 readme = "README.md"

@@ -1,4 +1,4 @@
-Current Version: "2024.6.1"
+Current Version: "2024.7.0"
 
 # eli
 AI command helper 
