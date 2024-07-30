@@ -1,5 +1,5 @@
 import typer
-from rich import print
+
 from eli.genyai.genai import genyai
 
 eli = typer.Typer()
