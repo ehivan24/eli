@@ -1,0 +1,28 @@
+[bumpver]
+current_version = "2024.7.0"
+version_pattern = "YYYY.MM.INC0"
+commit_message = "bump version {old_version} -> {new_version} [ci skip]"
+commit = true
+push = true
+tag = true
+
+[bumpver.file_patterns]
+"README.md" = [
+    "{version}",
+]
+
+"bumpver.toml" = [
+    'current_version = "{version}"',
+]
+
+"eli/settings/main.py" = [
+    '_VERSION = "{version}"',
+]
+
+"pyproject.toml" = [
+    'version = "{version}"',
+]
+
+"justfile" = [
+    '_VERSION := "{version}"',
+]

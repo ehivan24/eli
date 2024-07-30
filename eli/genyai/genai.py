@@ -1,7 +1,9 @@
+import platform
+
+from rich import print
+
 from eli.genyai import model
 from eli.genyai.schema import OperatingSystem
-import platform
-from rich import print
 
 
 class Genai:
