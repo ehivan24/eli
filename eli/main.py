@@ -1,22 +1,20 @@
 import typer
 from rich import print
+from eli.genyai.genai import genyai
 
 eli = typer.Typer()
 
+
 @eli.callback()
 def callback() -> None:
-   pass
+    pass
 
-@eli.command("hi")
-def hello(name: str):
-    """
-    Prints out a parameter
 
-    :param name: str
+@eli.command("//")
+def help(query: str) -> None:
+    genyai.get_command(query)
 
-    :return: None
-    """
-    print(f"{name=}")
 
+@eli.command("")
 def main():
     eli()
