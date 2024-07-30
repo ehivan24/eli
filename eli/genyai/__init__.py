@@ -1,5 +1,6 @@
 import google.generativeai as genai
 from google.generativeai import GenerationConfig
+
 from eli.settings.main import settings
 
 genai.configure(api_key=settings.API_GENAI)
